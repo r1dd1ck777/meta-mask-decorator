@@ -1,5 +1,6 @@
 # default usage
 
+```
 let mmd = new MetaMaskDecorator();
 
 mmd.$when('isInstalled', false).then(() => {
@@ -13,16 +14,19 @@ mmd.$when('isUserSignedIn', false).then(() => {
 mmd.$when('isFullyReady').then(() => {
     // code to show web UI
 });
+```
 
 # options
 
+```
 debug: Boolean
 refreshRate: Integer (milliseconds)
 
 Example: new MetaMaskDecorator({refreshRate: 10000, debug: true})
+```
 
 # props
-
+```
 state : Object
 state.isInstalled : Boolean
 state.networkId : Integer|null
@@ -31,9 +35,10 @@ state.isNetworkReady : Boolean
 state.userAddress : String|null
 state.isUserSignedIn : Boolean
 state.isFullyReady : Boolean
+```
 
 # events
-
+```
 let MetaMaskDecoratorEvents = {
   META_MASK_INSTALLED: 'META_MASK_INSTALLED',
   META_MASK_UNINSTALLED: 'META_MASK_UNINSTALLED',
@@ -44,9 +49,10 @@ let MetaMaskDecoratorEvents = {
   FULLY_READY: 'FULLY_READY',
   NOT_FULLY_READY: 'NOT_FULLY_READY',
 };
+```
 
 # methods
-
+```
 $on(eventName, callback);
 $when(stateProperty, expectedValue) : Promise;
-
+```
