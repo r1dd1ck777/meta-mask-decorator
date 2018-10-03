@@ -1,6 +1,6 @@
 {
   "name": "meta-mask-decorator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS decorator to simplify interactions with MetaMask chrome extension",
   "main": "MetaMaskDecorator.js",
   "repository": {
