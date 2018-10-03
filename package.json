@@ -1,0 +1,17 @@
+{
+  "name": "meta-mask-decorator",
+  "version": "1.0.0",
+  "description": "JS decorator to simplify interactions with MetaMask chrome extension",
+  "main": "MetaMaskDecorator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "metamask",
+    "ethereum",
+    "web3",
+    "javascript"
+  ],
+  "author": "Ruslan Palagin",
+  "license": "ISC"
+}
