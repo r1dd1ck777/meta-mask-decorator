@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "JS decorator to simplify interactions with MetaMask chrome extension",
   "main": "MetaMaskDecorator.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r1dd1ck777/meta-mask-decorator.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
